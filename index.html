@@ -129,15 +129,15 @@
 </head>
 <body>
     <div id='page'>
-        <h1 id='header'><a href="http://shvchk.github.io/gddl">Google Drive Direct Link</a></h1>
+        <h1 id='header'><a href="https://drivevip.trungkien99.tk">Google Drive Direct Link ( Lấy Link Tải Nhanh Google Drive)</a></h1>
         <div id='content'>
             <div id='link-processing'>
-                <input id='link' type='text' size='80' placeholder='Paste your link or file ID here'>
+                <input id='link' type='text' size='80' placeholder='Dán link share của google vào đây'>
                 <button id='get'>Get direct link</button>
                 <button id='clear'>Clear</button>
             </div>
         </div>
-        <div id='footer'><a href='https://github.com/shvchk/gddl'>GitHub</a></div>
+        <div id='footer'><a href='https://www.facebook.com/kiendct3d'>Facebook</a></div>
     </div>
 
     <script>
@@ -154,7 +154,7 @@
         }
     </script>
     <script>
-        var base_url = 'https://drive.google.com/uc?export=view&id=';
+        var base_url = 'http://app.gdrivevip.tk/get?id=';
         var el_link = dom.gid('link');
         var el_processed_link_id = 'processed-link';
         var el_arrow_id = 'arrow';
@@ -166,7 +166,7 @@
             }
 
             var url = base_url + id;
-            var link = (id) ? '<a href="' + url + '">' + url + '</a>' : '<span class="error">Wrong link or ID</span>';
+            var link = (id) ? '<a href="' + url + '">' + url + '</a>' : '<span class="error">Không Đúng Định Dạng Link hoặc Link Hỏng</span>';
             var link_wrapper = dom.gid(el_processed_link_id);
             
             if (link_wrapper) {
